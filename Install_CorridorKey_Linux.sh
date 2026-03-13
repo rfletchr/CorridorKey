@@ -9,9 +9,6 @@ print_info() {
     echo -e "\e[90mINFO: $*\e[0m"
 }
 
-print_warning() {
-    echo -e "\e[1;33mWARNING:\e[0;33m $*\e[0m"
-}
 
 print_step() {
     echo -e "\e[1;36m$*\e[0m"
